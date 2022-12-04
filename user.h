@@ -23,7 +23,8 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
-int trace(void);
+int trace(char *);
+int gcount(int)
 
 // ulib.c
 int stat(const char*, struct stat*);
